@@ -1,0 +1,10 @@
+In order for our application to make a request to an API, the data will 
+need to be formatted in a way both our application and the API can understand.
+
+The API may have been built with another programming language. 
+And it may not use the same variables, objects, and data structures as JavaScript. 
+
+To solve the issue of APIs being built in different programming languages, data formats are used.
+
+A data format is a set of rules that govern how data is written, organized, and labeled. 
+Data formats make working with data consistent and reliable.

@@ -1,0 +1,7 @@
+Browsers can't stop everything and wait for a response to an HTTP request. 
+Browsers have to render HTML, interact with the user, and run JavaScript. 
+
+To keep these processes running seamlessly, without any noticeable pauses, the browser relies on events.
+
+This is where .then() and the response handler function come in. 
+The browser provides us with a way to handle the response whenever it is received.

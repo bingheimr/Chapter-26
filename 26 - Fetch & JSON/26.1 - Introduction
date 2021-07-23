@@ -1,0 +1,12 @@
+One of the main benefits of programming is we don't work in isolation. 
+We can import modules that contain code that we can use to help us write our own programs. 
+
+We use online documentation like MDN and W3Schools to help us learn how to utilize aspects of a programming language. 
+We use online forums like Stack Overflow and Google to find answers to specific problems. 
+
+We even use other people like our classmates, TAs, and instructors to help figure out how to solve problems.
+
+We can also use other people's data in our applications. 
+There are multiple ways of using other people's data, or external data, in our applications. 
+
+In this chapter, we will focus on using fetch() and JSON to request and use data.

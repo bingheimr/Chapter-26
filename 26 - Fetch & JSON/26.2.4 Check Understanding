@@ -1,0 +1,19 @@
+What does API stand for?
+
+A: Application Programming Interface
+
+
+Why might you connect to an API?
+
+A: To retrieve information we need for our application.
+
+
+True or False: JSON is JavaScript.
+
+A: True: JavaScript Object Notation
+
+
+What purpose does JSON serve?
+
+A: Formats data that can then be read from one application to another via API
+

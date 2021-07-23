@@ -1,0 +1,38 @@
+<!-- 
+    Now that we know what an API is, let's use one to update a web page. 
+    Let's use a weather API to add weather data to a web page. The URL for 
+    this special LaunchCode weather API is https://handlers.education.launchcode.org/static/weather.json.
+
+Example JSON returned from our weather API. -->
+
+{
+    "temp": 67,
+    "windSpeed": 5,
+    "tempMin": 50,
+    "tempMax": 71,
+    "status": "Sunny",
+    "chanceOfPrecipitation": 20,
+    "zipcode": 63108
+ }
+
+ <!-- We can see that this API returns useful information like temp and windSpeed. 
+    Our goal is to add that data to a Launch Status web page. Note, this API is for 
+    instruction purposes and does not contain real time data.
+-->
+
+<!-- EXAMPLE: Launch Status web page, which we will add weather data to. -->
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Launch Status</title>
+   </head>
+   <body>
+      <h1>Launch Status</h1>
+      <h3>Weather Conditions</h3>
+      <div id="weather-conditions">
+         <!-- TODO: dynamically add html about weather using data from API -->
+      </div>
+   </body>
+</html>
+
+<!-- WARNING: Before going through the fetch examples, please know that fetch does NOT work in Internet Explorer. -->

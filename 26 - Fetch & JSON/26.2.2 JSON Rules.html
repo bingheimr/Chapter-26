@@ -1,0 +1,52 @@
+<!-- JSON is a collection of key-value pairs. In the example above, 
+    "title" is a key and it's value is "An Astronaut's Guide to Life on Earth".
+
+The key-value pairs describe the data that is being transferred.
+
+A JSON key MUST be a string, but the value may be a number, string, boolean, array, object, or null.
+
+In the example above, the JSON describes one object, a book! All of the keys 
+are strings, and the values are: string, string, number, number, array, and boolean respectively.
+
+JSON can also be used to describe a collection of objects at the same time. 
+
+
+Consider we search for the word "Astronaut". -->
+
+{
+    "hits": 3,
+    "book": [
+        {
+            "title": "An Astronaut's Guide to Life on Earth",
+             "author": "Chris Hadfield",
+             "ISBN": 9780316253017,
+             "year_published": 2013,
+             "subject": ["Hadfield, Chris", "Astronauts", "Biography"],
+             "available": true
+        },
+        {
+            "title": "Astronaut",
+            "author": "Lucy M. George",
+            "ISBN": 9781609929411,
+            "year_published": 2016,
+            "subject": ["Astronauts", "Juvenile Fiction", "Space stations"],
+            "available": false
+        },
+        {
+            "title": "Astronaut Ellen Ochoa",
+            "author": "Heather E. Schwartz",
+            "ISBN": 9781512434491,
+            "year_published": 2018,
+            "subject": ["Ochoa Ellen", "Women astronauts", "Astronauts", "Biography", "Women scientists", "Hispanic American women"],
+            "available": true
+        }
+    ]
+}
+
+<!-- This time, our search term "Astronaut" returned multiple books, and so a collection of book objects was returned in JSON format.
+
+Each book object can be found in the array with the key "book". 
+Each book contains the keys "title", "author", "ISBN", "year_published", "subject", and "available".
+
+When we make a request to an API, the API formats the data we requested into JSON and 
+then responds to our request with the JSON representation of our request. -->

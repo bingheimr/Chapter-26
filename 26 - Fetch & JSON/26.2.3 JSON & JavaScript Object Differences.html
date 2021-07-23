@@ -1,0 +1,33 @@
+<!-- JSON is rooted in JavaScript objects syntax. However, there are some key differences between the two.
+
+JSON keys MUST be in double quotes. Double quotes should not be used when declaring properties for a JavaScript object.
+
+JSON:                                    -->
+{
+    "title": "The Cat in the Hat",
+    "author": "Dr. Seuss"
+}
+
+<!-- JavaScript object:                 -->
+let newBook = {
+    title: "The Cat in the Hat",
+    author: "Dr. Seuss"
+}
+
+<!-- To represent a string in JSON, you MUST use double quotes. 
+    In JavaScript, you can use double quotes or single quotes.
+
+JSON:                                   -->
+{
+    "title": "The Last Astronaut",
+    "author": "David Wellington"
+}
+
+<!-- JavaScript object:                 -->
+let anotherBook = {
+    title: 'The Last Astronaut',
+    author: 'David Wellington'
+}
+
+<!-- NOTE: JSON is based on JavaScript objects, but there are key differences. 
+    JSON syntax is a little more strict than JavaScript object syntax. -->

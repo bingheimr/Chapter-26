@@ -1,0 +1,20 @@
+When using a website, we mainly work with GUIs (Graphical User Interface) 
+which contain buttons, forms, text boxes, etc. However, our program does not 
+know how to use a GUI. Programs use APIs (Application Programming Interface) 
+to communicate with other programs.
+
+Consider the software you use on a daily basis, like Microsoft Word, Google Chrome, 
+or a music streaming device like Spotify. When you open the software, a window pops 
+up on your screen and is filled with text, buttons, search bars, scroll bars, etc. 
+
+Usually, with a little trial and error, you can learn how to use the interface easily. 
+This interface we use is called a Graphical User Interface, or GUI for short.
+
+We interact with computers using various interfaces, either with a GUI or a CLI. 
+However, an application does not know how to use a GUI, or a CLI, and needs its 
+own interface to communicate with another application. 
+
+An API is the interface that allows one application to communicate with another application.
+
+An API is how one application communicates with another application. 
+We will be making a request to an API in order to retrieve information we need for our application.

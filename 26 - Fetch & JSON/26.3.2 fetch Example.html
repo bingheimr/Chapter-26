@@ -1,0 +1,43 @@
+Now let's add fetch in the Launch Status web page.
+
+<!-- Example
+A <script> tag has been added that includes:
+
+    1. A load event handler on line 6.
+    2. A fetch and response handler function on line 7.
+    3. A console.log(response); on line 8 that prints out the response object. -->
+
+    <!DOCTYPE html>
+    <html>
+       <head>
+          <title>Launch Status</title>
+          <script>
+             window.addEventListener("load", function() {
+                fetch("https://handlers.education.launchcode.org/static/weather.json").then(function(response) {
+                   console.log(response);
+                } );
+             });
+          </script>
+       </head>
+       <body>
+          <h1>Launch Status</h1>
+          <h3>Weather Conditions</h3>
+          <div id="weather-conditions">
+             <!-- TODO: dynamically add html about weather using data from API -->
+          </div>
+       </body>
+    </html>
+
+<!-- Let's break down how fetch works:
+
+    1. A URL is passed to fetch as a parameter.
+    2. This causes an HTTP GET request to be sent from the browser to the API.
+    3. The API processes the request and sends back a response, which contains data.
+    4. Once the browser receives the response, the .then() statement executes.
+    5. The anonymous response handler function called by .then(function(response) runs, and this function deals with the data sent back from the API.
+    6. Based on the code in the handler function, the web page gets updated using DOM methods. -->
+
+    <!-- NOTE:
+    In this section, fetch is used to make GET requests. fetch can also be used to make other types of HTTP requests such as POST and PUT.
+
+ -->

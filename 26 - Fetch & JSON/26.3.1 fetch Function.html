@@ -1,0 +1,25 @@
+<!-- 
+    To request the weather data, we will use the fetch function. 
+    
+    fetch is a global function that requests, or fetches, resources such as data from an API.
+
+
+    Take note of two necessary aspects of the fetch function:
+
+    1. The URL of where the data is located.
+        a. For this example, it will be "https://handlers.education.launchcode.org/static/weather.json"
+    
+    2. A response handler function to utilize the data that is being fetched.
+        b. For this example, it will be function(response){...}; -->
+
+<!-- EXAMPLE: Notice a string URL is passed to fetch. 
+    Also notice the anonymous request handler function that has a response parameter. 
+    The .then method will be explained soon. -->
+
+fetch("https://handlers.education.launchcode.org/static/weather.json").then(function(response) {
+   console.log(response);
+} );
+
+<!-- In this example, we are requesting data from https://handlers.education.launchcode.org/static/weather.json 
+    and our response handler (the anonymous function) simply logs the response to the console.-->
+

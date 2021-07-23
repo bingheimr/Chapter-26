@@ -1,0 +1,21 @@
+Question
+We know exactly when an asynchronous request will return.
+
+a. True
+b. False  <-----
+
+
+
+Question
+A promise can represent the outcome of any future event.
+
+a. True   <-----
+b. False  
+
+
+
+Question
+'then' is a method of the Promise class that allows us to run code after an event is completed.
+
+a. True    <-----
+b. False
